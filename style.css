@@ -1,19 +1,22 @@
 
 *{
-    box-sizing: border-box;
+    box-sizing: border-box; /* reset basico*/
     margin: 0%;
     padding: 0%;
 }
 
-nav {
-        text-align: center;
+nav { 
+    display: flex;
+    justify-content: space-evenly;  /* esse é o nav o cabeçalho da pagina*/
+    text-align: center;
     background-color: #1e1b18;
     font-size: 20px;
     padding: 40px;
     color: #fffaff;
 }
 nav a {
-    background-color: #3e92cc;
+    
+    background-color: #3e92cc; /*coloquei uma cor para aborda eu a redondei e mudei o tamamho da letra e a cor*/
     padding: 20px;
     margin: 30px;
     border-radius: 50%;
@@ -21,32 +24,42 @@ nav a {
     
 }
 h1 {
-    text-align: initial;
+    margin-top: 40px;   /*aqui foi para color uma margin no topo e almentar a letra*/
     font-size: 20p;
     
 }
 
-.inicio {
+#inicio {
+    display: flex;
+    align-items: center;    /*usei um display flex para alinhar os itens e colocar uma cor no fundo e aumentar o tamanho da letra*/
+    justify-content: space-evenly;
+    padding: 30px;
+    
     background-color: #0a2463;
     font-size: 30px;
     
 }
 
-.inicio img {
+#inicio img {
+    
+    height: 380px;
     width: 300px;
-    border-radius: 50%;
+    border-radius: 500px /*aqui eu mexi nas imagens almentando ela e colocando uma borda arredondada*/
+
     
 }
 
-.inicio p {
+#inicio p {
+    background-color: #3e92cc;
+    border-radius: 30px;            /*coloquei uma cor para aborda do fundo alinhei no centro mudei a cor e coloquei uma borda arredondada*/
     text-align: center;
     color: #fffaff;
    
 }
 
-.sobre-mim{
+#sobre-mim{
     padding: 60px;    
-    text-align: center;
+    text-align: center;                 /*coloqui uma borda e os itens no centro a cor das letras brancas o mudei a cor do fundo e almentei a letra*/
     color:#fffaff;
     background-color: #0a2463;
     font-size: 25px;
@@ -55,16 +68,103 @@ h1 {
     
 }
 .borda {
-    background-color: #3e92cc;
+    background-color: #3e92cc;              /*coloqui a cor da borda e arrendondei ela*/
     border-radius: 50px;
 }
 .sobre-mim h2 {
-    font-size: 50px;
+    font-size: 50px;                    /*aumentei o tamanho da letra*/
 }
-.conteiner {
+.pai {
+    padding: 150px;
+   
+    font-size: 30px;                        /* aqui coloqui uma borda aumentei o tamanho da letra e coloqui uma cor de fundo e tambem mudei a cor da letra */
+
+    background-color: #0a2463;
+    color: #fffaff;
+    
    
 }
-.intens { 
+#habilidades ul  { 
+        
+        padding: 30px;
+        border-radius: 30px;
+        background-color: #3e92cc;                  /*coloqui uma borda a arredondei e coloquei uma cor nela*/
+    
+   
+}
+.filho {
+    display: flex;
+    justify-content: space-evenly;                      /*coloquei um display flex para ficar com os espaçamentos iguais e uma borda */
+    
+    padding: 30px;
+}
+#habilidades h2 {
+    text-align: center;                                     /*aqui coloquei no centro e aumebtei o tamanho da letra */
+    font-size: 60px;
+}
+
+
+
+#projetos {
+    
+    font-size: 30px;
+    text-align: center;                                     /*aumntei o tamanho da letra alinhei no meio e coloquei uma borda  uma cor de fundo e a cor da   letra */
+    padding: 70px;
+    background-color: #0a2463;
+    color: #fffaff;
+}
+#projetos img {
+   
+    height: 300px;
+    border-radius: 200px;               /* aqui coloqueei um tamanho da imagem e uma borda*/
+}
+#projetos a {
+    background-color: #3e92cc;          /* mudei a cor da borda e a arredondei */
+    border-radius: 30px;
+
+}
+#projetos h2 {
+    text-align: center;                     /* aqui eu so alinhei no centro */
+}
+.imagenspjt {
+    display: flex;                              /* aqui coloquei o display flex para alinhar todos no mesmo tamanho */
+    justify-content: space-evenly;
+}
+#contatos {
+    padding: 100px;
+    background-color: #0a2463;                  /* aqui coloquei uma borda e uma cor de fundo */
+    
+    
+}
+#contatos img {
+    height: 70px;           /* aqui so mexi no tamanho da imagem */
     
 
 }
+#contatos h2 {
+    text-align: center;             /* aqui alinhei eles no centro aumentei o tamanho das letras e mudei tambem mudei a cor delas  */
+    font-size: 50px;
+    color: #fffaff;
+}
+.contatosimg {
+    display: flex;
+    justify-content: space-evenly;      /*coloquei um espaço igual entre eles usando o disply flex*/
+}
+footer {
+    padding: 50px;
+    display: flex;
+    text-align: center;                             /*aqui coloquei uma borda alinhei eles mais n com o mesmo tamanho e coloquei a cor de fundo e as letras brancas */
+    justify-content: space-between;
+    background-color: #1e1b18;
+    color: #fffaff;
+ 
+}
+footer img {
+    height: 40px; /*aqui so mexi no tamanho das imagens */
+}
+    
+    
+
+
+
+
